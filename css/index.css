@@ -66,7 +66,7 @@ main ul li a:hover {
 main section {
   width: 100%;
   height: 55vh;
-  background-color: #ffff00;
+  background-color: #fff;
 }
 main section article {
   width: 40%;
@@ -75,6 +75,14 @@ main section article {
   float: left;
   margin-left: 6.6%;
   margin-top: 2.5vh;
+}
+main section article h1{
+  font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+  text-transform: uppercase;
+  text-align: center;
+  font-weight: bolder;
+  font-size: 1.5em;
+  margin-top: 1vh;
 }
 main footer {
   width: 100%;
