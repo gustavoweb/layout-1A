@@ -71,7 +71,6 @@ main section {
 main section article {
   width: 40%;
   height: 50vh;
-  background-color: #0f0;
   float: left;
   margin-left: 6.6%;
   margin-top: 2.5vh;
@@ -83,9 +82,47 @@ main section article h1{
   font-weight: bolder;
   font-size: 1.5em;
   margin-top: 1vh;
+  color: #333;
+}
+#h1-video{
+  margin-top: 8vh;
+  margin-bottom: 2vh;
+}
+main section article p{
+  font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+  font-size: 1.1em;
+  color: #333;
+}
+main section article button{
+  width: 60%;
+  margin-left: 20%;
+  margin-top: 2vh;
+  height: 6vh;
+  border:0;
+  background: #FF5252;
+  color: #fff;
+  text-align: center;
+  font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 0.9em;
 }
 main footer {
   width: 100%;
   height: 6vh;
-  background-color: #800080;
+  background-color: #000;
+  background-image: url('../img/riot-logo-cinza.png');
+  background-size: 9%;
+  background-repeat: no-repeat;
+  background-position-x: 3%;
+  background-position-y: center;
+}
+main footer small{
+  text-align: center;
+  color:#555;
+  font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+  line-height: 6vh;
+  font-size: 0.7em;
+  width: 100%;
+  float: left;
 }
