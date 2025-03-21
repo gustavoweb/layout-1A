@@ -90,7 +90,7 @@ main section article iframe{
   height: 35vh;
 }
 #h1-video{
-  margin-top: 8vh;
+  margin-top: 2vh;
   margin-bottom: 2vh;
 }
 main section article p{
@@ -111,6 +111,7 @@ main section article button{
   text-transform: uppercase;
   font-weight: bold;
   font-size: 0.9em;
+  cursor: pointer;
 }
 main footer {
   width: 100%;
